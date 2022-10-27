@@ -1,0 +1,101 @@
+
+# Created by https://www.gitignore.io/api/iar,iarembeddedworkbench
+
+### IAR ###
+# Compiled binaries
+*.o
+*.bin
+*.elf
+*.hex
+*.map
+*.out
+*.obj
+
+*.xml
+
+# Trash
+*.bak
+thumbs.db
+*.~*
+
+# IAR Settings
+**/settings/*.crun
+**/settings/*.dbgdt
+**/settings/*.cspy
+**/settings/*.cspy.*
+**/settings/*.xcl
+**/settings/*.dni
+**/settings/*.wsdt
+**/settings/*.wspos
+# Project setting files - Added by Carlos Estay Apr. 30th, 2019
+**/settings/*.dnx 
+
+# IAR Debug Exe
+**/Exe/*.sim
+
+# IAR Debug Obj
+**/Obj/*.pbd
+**/Obj/*.pbd.*
+**/Obj/*.pbi
+**/Obj/*.pbi.*
+
+# IAR project "Debug" directory
+Debug/
+
+# IAR project "Release" directory
+Release/
+
+# IAR project settings directory
+#settings/
+
+# IAR backup files
+Backup*
+
+# IAR .dep files
+*.dep
+
+### IAREmbeddedWorkBench ###
+# IAR C-STAT and C-RUN
+# Comment this out if you use C-Stat or C-Run to compile/analyze your project
+*.ewt
+
+# IAR Workspace files
+#*.eww    WE NEED THIS - Edited by Carlos Estay
+
+# IAR Settings
+
+# IAR Debug Exe
+**/Debug/Exe/
+
+# IAR Debug List
+**/Debug/List
+
+
+**/*.xml
+
+# IAR Debug Obj
+
+# Log files
+#**.log  - Edited by Carlos Estay
+
+# IAR backup files
+
+# IAR .dep files
+
+# Compiled Binaries
+
+# Trash files
+
+
+#VsCode
+**/.vscode/*
+
+# IAR Debug Obj - Added by Carlos Estay
+**/Debug/Obj
+# Custom Firmware directory - Added by Carlos Estay
+Firmware/
+**/Firmware/
+
+*.xml
+# End of https://www.gitignore.io/api/iar,iarembeddedworkbench
+STM32L476xx/Project/*.log
